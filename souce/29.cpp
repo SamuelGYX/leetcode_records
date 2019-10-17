@@ -25,17 +25,15 @@ Tricky points:
 
     1. Overflow (2's complement)
 
-        The only overflow situation is when INT_MIN / -1 results in INT_MAX + 1.
+        Positive numbers are stored directly in its binary form. But negative numbers are stored in 2's complement form. Computing the 2's complement of a negative number gives the absolute value of it.
 
-        INT_MAX:    0x7fffffff  01111111,1111....   2147483647 (2x10^9)
-        INT_MIN:    0x80000000  10000000,0000....   -2147483648
-        INT_MIN+1:  0xffffffff  11111111,1111....   -2147483647
+        INT_MAX:    0x7fffffff  01111111,...,11111111   2147483647 (2x10^9)
+        INT_MAX-1:  0x7ffffffe  01111111,...,11111110   2147483646
+        0:          0x00000000  00000000,...,00000000   0
+        INT_MIN+1:  0x80000001  10000000,...,00000001   -2147483647
+        INT_MIN:    0x80000000  10000000,...,00000000   -2147483648
 
-        INT_MAX and INT_MIN+1 is symmetric while the special -0 value is utilized as INT_MIN. This is a special setting in C++.
-
-        //TODO
-
-        Therefore, we could arbitrarily negate positive or negative value except for INT_MIN because abs(INT_MIN) = abs(INT_MAX) + 1
+        Therefore, the only overflow situation is when INT_MIN / -1 results in INT_MAX + 1. We could arbitrarily negate positive or negative value except for INT_MIN because abs(INT_MIN) = abs(INT_MAX) + 1
 
     2. labs()
 
