@@ -12,3 +12,6 @@
 55,10/13/19,Jump Game,Medium,,,https://leetcode.com/problems/jump-game/
 98,10/13/19,Validate Binary Search Tree,Medium,,,https://leetcode.com/problems/validate-binary-search-tree/
 12,10/16/19,Integer to Roman,Medium,Math;String,13E;273H,https://leetcode.com/problems/integer-to-roman/
+24,10/17/19,Swap Nodes in Pairs,Medium,Linked List,25H,https://leetcode.com/problems/swap-nodes-in-pairs/
+36,10/17/19,Valid Sudoku,Medium,Hash Table,37H,https://leetcode.com/problems/valid-sudoku/
+43,10/17/19,Multiply Strings,Medium,Math;String,2M;66E;67E;415E,https://leetcode.com/problems/multiply-strings/
