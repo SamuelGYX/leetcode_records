@@ -1,20 +1,25 @@
-﻿Index,Date,Name,Level,Topics,Related,URL
-16,10/12/19,3Sum Closest,Medium,,,https://leetcode.com/problems/3sum-closest/
-8,10/12/19,String to Integer (atoi),Medium,,,https://leetcode.com/problems/string-to-integer-atoi/
-62,10/12/19,Unique Paths,Medium,,,https://leetcode.com/problems/unique-paths/
-6,10/12/19,ZigZag Conversion,Medium,,,https://leetcode.com/problems/zigzag-conversion/
-94,10/12/19,Binary Tree Inorder Traversal,Medium,,,https://leetcode.com/problems/binary-tree-inorder-traversal/
-18,10/13/19,4Sum,Medium,,,https://leetcode.com/problems/4sum/
-102,10/13/19,Binary Tree Level Order Traversal,Medium,,,https://leetcode.com/problems/binary-tree-level-order-traversal/
-29,10/13/19,Divide Two Integers,Medium,,,https://leetcode.com/problems/divide-two-integers/
-50,10/13/19,"Pow(x, n)",Medium,,,https://leetcode.com/problems/powx-n/
-74,10/13/19,Search a 2D Matrix,Medium,,,https://leetcode.com/problems/search-a-2d-matrix/
-55,10/13/19,Jump Game,Medium,,,https://leetcode.com/problems/jump-game/
-98,10/13/19,Validate Binary Search Tree,Medium,,,https://leetcode.com/problems/validate-binary-search-tree/
-12,10/16/19,Integer to Roman,Medium,Math;String,13E;273H,https://leetcode.com/problems/integer-to-roman/
-24,10/17/19,Swap Nodes in Pairs,Medium,Linked List,25H,https://leetcode.com/problems/swap-nodes-in-pairs/
-36,10/17/19,Valid Sudoku,Medium,Hash Table,37H,https://leetcode.com/problems/valid-sudoku/
-43,10/17/19,Multiply Strings,Medium,Math;String,2M;66E;67E;415E,https://leetcode.com/problems/multiply-strings/
-40,10/23/19,Combination Sum II,Medium,Array;Backtracking,39M,https://leetcode.com/problems/combination-sum-ii/
-47,10/23/19,Permutations II,Medium,Backtracking,31M;46M;267M;996H,https://leetcode.com/problems/permutations-ii/
-55,10/23/19,Jump Game,Medium,Array;Greedy,45H,https://leetcode.com/problems/jump-game/
+﻿Date,Index,Name,Level,Topics,Related
+10/12/19,16,3Sum Closest,Medium,,
+10/12/19,8,String to Integer (atoi),Medium,,
+10/12/19,62,Unique Paths,Medium,,
+10/12/19,6,ZigZag Conversion,Medium,,
+10/12/19,94,Binary Tree Inorder Traversal,Medium,,
+10/13/19,18,4Sum,Medium,,
+10/13/19,102,Binary Tree Level Order Traversal,Medium,,
+10/13/19,29,Divide Two Integers,Medium,,
+10/13/19,50,"Pow(x, n)",Medium,,
+10/13/19,74,Search a 2D Matrix,Medium,,
+10/13/19,55,Jump Game,Medium,,
+10/13/19,98,Validate Binary Search Tree,Medium,,
+10/16/19,12,Integer to Roman,Medium,Math;String,13E;273H
+10/17/19,24,Swap Nodes in Pairs,Medium,Linked List,25H
+10/17/19,36,Valid Sudoku,Medium,Hash Table,37H
+10/17/19,43,Multiply Strings,Medium,Math;String,2M;66E;67E;415E
+10/23/19,40,Combination Sum II,Medium,Array;Backtracking,39M
+10/23/19,47,Permutations II,Medium,Backtracking,31M;46M;267M;996H
+10/23/19,55,Jump Game,Medium,Array;Greedy,45H
+10/24/19,56,Merge Intervals,Medium,Array; Sort,57H; 252E; 253M; 495M; 616M; 715H; 759H; 763M; 986M
+10/24/19,64,Minimum Path Sum,Medium,Array; Dynamic Programming,62M; 174H; 741H
+10/24/19,75,Sort Colors,Medium,Array; Two Pointer; Sort,148M; 280M; 324M
+10/24/19,78,Subsets,Medium,Array; Backtracking; Bit Manipulation,90M; 320M; 784E
+10/24/19,96,Unique Binary Search Trees,Medium,Dynamic Programming; Tree,95M
