@@ -20,6 +20,8 @@
  *      unused.
  *
  *      2. Allocating memory space with `new` in C++ is like `malloc` in C.
+ *
+ *      > [malloc() vs new](https://www.geeksforgeeks.org/malloc-vs-new/)
  */
 
 /**

@@ -1,4 +1,4 @@
-/*
+/**
 94. Binary Tree Inorder Traversal Medium
 
 Overview:
@@ -20,7 +20,7 @@ Overview:
 
         3. Morris Traversal (without recursion or stack)
 
-            Loop:
+            Loop until cur == NULL:
         
                 if cur.left == NULL
 
@@ -29,7 +29,7 @@ Overview:
 
                 else
 
-                    put cur to be the most right child of left
+                    put cur to be 'the most right child' of left
 
                     if right-most child of left is already cur
 
@@ -43,12 +43,7 @@ Overview:
                         set right-most child of left tobe cur
                         goto left
 
-            until cur == NULL
-*/
-
-/*
-M1: Recursion
-*/
+ */
 
 /**
  * Definition for a binary tree node.
@@ -59,6 +54,11 @@ M1: Recursion
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
+/**
+ * M1: Recursion
+*/
+
 class Solution {
 public:
     void inorderRecur(TreeNode* root, vector<int> &res) {
@@ -76,8 +76,8 @@ public:
     }
 };
 
-/*
-M2: Stack
+/**
+ * M2: Stack
 */
 
 class Solution {
@@ -101,8 +101,8 @@ public:
     }
 };
 
-/*
-M3: Morris Traversal
+/**
+ * M3: Morris Traversal
 */
 
 class Solution {

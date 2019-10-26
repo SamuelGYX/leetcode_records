@@ -20,11 +20,11 @@ Additions:
 
     vector `=` is treated as copy-by-value.
 
-    std::vector::operator=
-
+    > std::vector::operator=
+    > 
     > Assigns new contents to the container, replacing its current contents, and modifying its size accordingly.
-
-    Ref: http://www.cplusplus.com/reference/vector/vector/operator=/
+    > 
+    > Ref: http://www.cplusplus.com/reference/vector/vector/operator=/
 
 */
 
