@@ -25,6 +25,8 @@ Solution:
 
 	This problem also proves that Dynamic Programming (bottom-up) is mainly an optimization over plain recursion (top-down).
 
+	You could also refer to the Discuss section of the original problem for a more detailed explanation.
+
 Tricky point:
 
 	The size of the result array should be n+1 instead of n because res[n] is the used for recording the result with n numbers.
