@@ -15,17 +15,12 @@ Solution:
 	This is because multiply with negative number will exchange the value of min and max.
 '''
 
-class Solution:
+class Solution2:
     def maxProduct(self, nums: List[int]) -> int:
-        res = dp_min = dp_max = nums[0]
-        
-        for i in range(1, len(nums)):
-            if nums[i] < 0:
-                dp_min, dp_max = dp_max, dp_min
-            
-            dp_min = min(dp_min * nums[i], nums[i])
-            dp_max = max(dp_max * nums[i], nums[i])
-            
-            res = max(res, dp_max)
-            
-        return res
+        min_ = max_ = out = nums[0]
+        for a in nums[1:]:
+            if a < 0:
+                min_, max_ = max_, min_
+            min_, max_ = min(a, min_*a), max(a, max_*a)
+            out = max(max_, out)
+        return out
