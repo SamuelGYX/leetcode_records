@@ -67,17 +67,17 @@
 64,2/15/20,122,Best Time to Buy and Sell Stock II,Easy,121 123 188 309 714
 65,2/16/20,198,House Robber,Easy,152 213 337 740 600
 66,2/17/20,628,Maximum Product of Three Numbers,Easy,152
-67,,1,Two Sum,Easy,15 18 167 653 560
+67,2/29/20,1,Two Sum,Easy,15 18 167 653 560
 68,,724,Find Pivot Index,Easy,560
-69,,167,Two Sum II - Input array is sorted,Easy,1 653
-70,,653,Two Sum IV - Input is a BST,Easy,1 167
+69,2/29/20,167,Two Sum II - Input array is sorted,Easy,1 653
+70,2/29/20,653,Two Sum IV - Input is a BST,Easy,1 167
 71,2/17/20,238,Product of Array Except Self,Medium,42 152 
 72,,713,Subarray Product Less Than K,Medium,560 152
 73,2/16/20,309,Best Time to Buy and Sell Stock with Cooldown,Medium,121 122
 74,2/16/20,714,Best Time to Buy and Sell Stock with Transaction Fee,Medium,122
 75,2/16/20,152,Maximum Product Subarray,Medium,53 198 238 628 713
 76,2/16/20,978,Longest Turbulent Subarray,Medium,53
-77,,560,Subarray Sum Equals K,Medium,1 523 713 724 974
+77,2/29/20,560,Subarray Sum Equals K,Medium,1 523 713 724 974
 78,2/16/20,213,House Robber II,Medium,198 337 600
 79,2/16/20,337,House Robber III,Medium,198 213
 80,2/16/20,740,Delete and Earn,Medium,198
@@ -85,8 +85,8 @@
 82,,11,Container With Most Water,Medium,42
 83,,523,Continuous Subarray Sum,Medium,560
 84,,974,Subarray Sums Divisible by K,Medium,560
-85,,15,3Sum,Medium,1 16 18
-86,,18,4Sum,Medium,1 15 454
+85,2/29/20,15,3Sum,Medium,1 16 18
+86,2/29/20,18,4Sum,Medium,1 15 454
 87,,16,3Sum Closest,Medium,15
 88,,454,4Sum II,Medium,18
 89,2/16/20,123,Best Time to Buy and Sell Stock III,Hard,121 122 188 689
